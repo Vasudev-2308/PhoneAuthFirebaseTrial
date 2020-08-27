@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTP">
+
+    <EditText
+        android:id="@+id/otpentry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="362dp"
+        android:ems="10"
+        android:digits="0123456789"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="271dp"
+        android:text="@string/confirm" />
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="214dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone">
+    </ProgressBar>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DemoApp1</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="ph_no">Ph.No</string>
+    <string name="confirm">Confirm</string>
+    <string name="check">Check</string>
+</resources>
